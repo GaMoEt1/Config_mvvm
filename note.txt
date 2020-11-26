@@ -1,0 +1,7 @@
+<i:Interaction.Triggers>
+        <i:EventTrigger EventName="SelectionChanged">
+            <i:InvokeCommandAction Command="{Binding SelectedItemChangedCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    
+    //Install-Package System.Windows.Interactivity.WPF
